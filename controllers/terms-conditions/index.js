@@ -4,7 +4,7 @@ var path = require('path');
 module.exports = function (router) {
 
   const options = {
-    root: path.join(__dirname, '../../public'),
+    root: path.join(__dirname, '../../public/privacy_policy'),
   }
 
   router.get('/', function (req, res) {
